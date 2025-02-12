@@ -1,1 +1,5 @@
-console.log("Conriling");
+import { configDotenv } from "dotenv";
+import { startAgent } from "./agent";
+configDotenv();
+
+startAgent();
